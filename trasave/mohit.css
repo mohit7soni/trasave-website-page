@@ -1,0 +1,212 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  body{
+    background-color: #000000!important;
+  }
+  
+  
+  nav.navbar {
+    background-color: #000000;
+    padding: 15px;
+    font-size: large;
+  }
+  a.navbar-brand {
+    color: #ffffff;
+  }
+  ul {
+    margin: 0 40px 0 0;
+  }
+  li.nav-item {
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  a.nav-link {
+    color: #ffffffe7;
+    font-weight: 500;
+  }
+  a.nav-link:hover{
+    color: #49B649;
+    font-weight: 500;
+  }
+  a.nav-link:active{
+    color: #49B649;
+    font-weight: 500;
+  }
+  
+  
+  #contact{
+    background: linear-gradient(90deg, rgba(7,218,7,1) 0%, rgba(11,67,11,1) 64%);
+    padding: 5px 15px;
+    border: white 1px;
+    border-radius: 5px;
+  }
+  
+  main{
+    margin: 5px 0px;
+  }
+    
+  .herocont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 45px;
+  }
+  
+  .herobtns{
+    background: linear-gradient(90deg, rgba(7,218,7,1) 0%, rgba(11,67,11,1) 64%);
+    padding: 15px 15px;
+    margin: 8px 8px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .herobtns:hover{
+    background: linear-gradient(90deg, rgba(7, 218, 7, 0.522) 0%, rgba(11, 67, 11, 0.476) 64%);
+  }
+  
+  .herohead{
+    font-weight: 900;
+    color: white;
+  }
+  
+  .heropara{
+    color: white;
+    font-weight: 500;
+  }
+  
+  .herospan{
+    color: #49B649;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .heroimgcont{
+   background: linear-gradient(180deg, rgba(73, 182, 73, 0.5) 0%, rgba(73, 182, 73, 0) 100%);
+  
+    border-radius: 100% 0% 50% 50% / 73% 0% 100% 27% ;
+  }
+  
+  .whytravelwithuspart{
+    color: white;
+    text-align: center;
+    margin: 40px 45px 0 45px;
+  }
+  
+  .whytravel{
+    font-weight: 900;
+    
+  }
+  
+  .travel{
+    color: #49B649;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    
+  }
+  
+  .whytravelp{
+    font-weight: 500;
+  }
+  
+  .advantages{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    margin: 58px 50px ;
+  
+  }
+  
+  
+  .security{
+    background-image:        linear-gradient(rgba(0, 0, 0, 0.837), rgba(0, 0, 0, 0.493)),
+    url(images/travmoneybundle.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-position: center;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  hr{
+    height: 7px;
+    background-color: #00ff00;
+    width: 85px;
+  }
+  .securityheading,.aboutsecurity{
+    margin: 50px 0px;
+  }
+  
+  .securityhead{
+    font-weight: 800;
+    color: white;
+  }
+  
+  .securitycap{
+    color: white;
+  }
+  
+  
+  
+  
+  a.footer-links {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a.footer-links:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  i{
+    margin: 0px 5px;
+  }
+  
+  .subscribesec {
+    
+    width: 300px;
+    position: relative;
+  } 
+  
+  input {
+    padding: 25px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  
+  input::placeholder {
+    color: rgb(114, 107, 107);
+  }
+  
+  .newsletterbtn {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    background-color: #49B649;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    transform: translateX(-8px) translateY(10px);
+    
+    
+  }
+  
